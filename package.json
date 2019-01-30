@@ -1,0 +1,41 @@
+{
+  "name": "eslint-config-handlebarlabs",
+  "version": "0.0.1",
+  "description": "ESLint rules to bring a level of consistency to the various Handlebar Labs projects!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HandlebarLabs/eslint-config-handlebarlabs.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "config",
+    "kentcdodds",
+    "javascript",
+    "styleguide"
+  ],
+  "author": "Spencer Carli <spencer@handlebarlabs.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HandlebarLabs/eslint-config-handlebarlabs/issues"
+  },
+  "homepage": "https://github.com/HandlebarLabs/eslint-config-handlebarlabs#readme",
+  "dependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.7.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-prettier": "^3.1.0",
+    "eslint-config-react-app": "^3.0.6",
+    "eslint-plugin-flowtype": "2.x",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-react": "^7.11.1"
+  },
+  "peerDependencies": {
+    "eslint": ">=5"
+  }
+}
