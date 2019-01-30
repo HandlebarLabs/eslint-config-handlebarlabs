@@ -1,10 +1,11 @@
 {
   "name": "eslint-config-handlebarlabs",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "ESLint rules to bring a level of consistency to the various Handlebar Labs projects!",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "publish": "npm publish"
   },
   "repository": {
     "type": "git",
@@ -14,7 +15,7 @@
     "eslint",
     "eslintconfig",
     "config",
-    "kentcdodds",
+    "handlebarlabs",
     "javascript",
     "styleguide"
   ],
