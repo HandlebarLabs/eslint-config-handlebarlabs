@@ -9,3 +9,8 @@ npm install --save-dev eslint eslint-config-handlebarlabs
 ```
 
 
+## Publishing
+
+```
+npm publish
+```
