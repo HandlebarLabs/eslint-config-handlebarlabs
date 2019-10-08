@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-handlebarlabs",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "ESLint rules to bring a level of consistency to the various Handlebar Labs projects!",
   "main": "index.js",
   "scripts": {
