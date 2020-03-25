@@ -1,5 +1,6 @@
 module.exports = {
   extends: ["airbnb", "eslint-config-prettier"],
+  plugins: ["react-hooks"],
   parser: "babel-eslint",
   env: {
     browser: true,
@@ -20,6 +21,10 @@ module.exports = {
     "no-alert": 0,
     "no-console": 0,
     "import/no-extraneous-dependencies": 0,
-    "jsx-a11y/accessible-emoji": 0
+    "jsx-a11y/accessible-emoji": 0,
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn",
+    "react/jsx-props-no-spreading": 0,
+    "react/jsx-curly-newline": 0
   }
 };
