@@ -1,10 +1,9 @@
 module.exports = {
-  extends: ["airbnb", "eslint-config-prettier"],
-  plugins: ["react-hooks"],
+  extends: ["airbnb", "airbnb/hooks", "eslint-config-prettier"],
   parser: "babel-eslint",
   env: {
     browser: true,
-    jest: true
+    jest: true,
   },
   rules: {
     "react/jsx-filename-extension": 0,
@@ -25,6 +24,6 @@ module.exports = {
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "warn",
     "react/jsx-props-no-spreading": 0,
-    "react/jsx-curly-newline": 0
-  }
+    "react/jsx-curly-newline": 0,
+  },
 };
